@@ -43,7 +43,7 @@ public class RacaoController {
 
     public void exibirDadosCaneta(String marca, String sabor, String tamanho){
         Stage stage = new Stage();
-        stage.setTitle("Dados");
+        stage.setTitle("Feito!");
 
         Label label = new Label("Ração comprada: \n" + "Marca: " + marca + ", Sabor: " + sabor + ", Tamanho: " + tamanho);
         VBox vbox = new VBox(label);
